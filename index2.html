@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>   
+<body onload="showquestion(0)">
+    <div class="main2">
+        <div>
+        <h1>Quiz Start</h1>
+        </div>
+        <div>
+            <h3 id="q">Question # 01</h3> 
+            <h4 id="question" >What is Your Name ?</h4>
+            <option class="option" onclick="select(this)" >Shayan</option>
+            <option class="option" onclick="select(this)" >Ahtisham</option>
+            <option class="option" onclick="select(this)" >tashish</option>
+
+        </div>
+        
+        <a href="#"><button id="next" onclick="counter()">Next Question</button></a>
+        
+
+    </div>
+   
+    
+</body> 
+<script src="app.js"></script>
+
+</html>

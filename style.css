@@ -1,0 +1,55 @@
+.main{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    border: 3px black solid;
+    width: 500px;
+    height: 260px;
+    background-color: red;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+input{
+    height: 25px;
+    width: 250px;
+    margin-top: 30px;
+    
+}
+
+/* #Password{
+    margin-top: 10px;
+} */
+
+
+button{
+    margin-top: 20px;
+}
+
+.main2{
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 350px;
+    border: 3px black solid;
+    width: 600px;
+    height: 350px;
+    background-color: blueviolet;
+}
+
+h1{
+    text-align: left;
+    background-color: chartreuse;
+}
+
+#next{
+    margin-top: 90px;
+}
+
+.active {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
